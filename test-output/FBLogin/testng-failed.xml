@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FBLogin]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.e_Bank1_ActionListener.ActionListener"/>
+  </listeners>
+  <test thread-count="5" name="FunctionalTest(failed)">
+    <classes>
+      <class name="com.e_Bank1.TestCases.TC_LoginTest_dataDriven_003">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="tearDown"/>
+          <include name="verifyLogin" invocation-numbers="0 1 2 3 4"/>
+        </methods>
+      </class> <!-- com.e_Bank1.TestCases.TC_LoginTest_dataDriven_003 -->
+    </classes>
+  </test> <!-- FunctionalTest(failed) -->
+</suite> <!-- Failed suite [FBLogin] -->
